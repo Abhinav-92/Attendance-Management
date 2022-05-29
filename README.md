@@ -47,6 +47,12 @@ Dlib's 68 point shape predictor
 
 -> Run python manage.py runserver inside \Attendance-System-Using-Face-Recognition directory to run the project
 
+->For Manager
+
+-> Username : admin
+
+-> Password : admin
+
 Enjoy !
 
 
