@@ -126,13 +126,14 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static'
+
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL='login'
 LOGOUT_REDIRECT_URL = 'home'
+
+STATIC_URL = '/static/'
 
 
 LOGIN_REDIRECT_URL='dashboard'
