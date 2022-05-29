@@ -28,7 +28,7 @@ SECRET_KEY = os.environ('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['attendancemanagemennt92.herokuapp.com', "0.0.0.0:8000", "localhost:8000", "*"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
