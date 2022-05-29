@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-import django_heroku
+
+
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -22,12 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["attendacemanagement92.herokuapp.com","localhost"]
+ALLOWED_HOSTS = ['attendancemanagemennt92.herokuapp.com', "0.0.0.0:8000", "localhost:8000", "*"]
 
 
 # Application definition
@@ -127,7 +128,6 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -137,4 +137,3 @@ LOGOUT_REDIRECT_URL = 'home'
 
 LOGIN_REDIRECT_URL='dashboard'
 
-django_heroku.settings(locals())
