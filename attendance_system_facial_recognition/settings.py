@@ -133,7 +133,12 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_URL='login'
 LOGOUT_REDIRECT_URL = 'home'
 
+STATIC_ROOT = 'attendence-tracker-abhinav/static'
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 
 LOGIN_REDIRECT_URL='dashboard'
