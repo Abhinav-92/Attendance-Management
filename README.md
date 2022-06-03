@@ -45,7 +45,9 @@ Dlib's 68 point shape predictor
 
 -> make a separate python virtual environment or use the default one already installed on your machine
 
--> Run python manage.py runserver inside \Attendance-System-Using-Face-Recognition directory to run the project
+-> run "pip install -r requirements.txt" inside \Attendance-System-Using-Face-Recognition directory
+
+-> Run "python manage.py runserver" inside \Attendance-System-Using-Face-Recognition directory to run the project
 
 ->For Manager
 
